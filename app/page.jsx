@@ -29,38 +29,41 @@ export default function Home() {
   const MotionImage = motion(Image);
 
   return (
-    <div className="max-w-7xl mx-auto px-4">
+    <section className='sec_header'>
+      <div className="container  mx-auto flex justify-between py-4">
       
-      <div
-        className={`overlay fixed top-0 left-0 w-full h-full bg-gray-300 flex items-center transition-transform duration-1000 ${
-          // hideOverlay ? "-translate-y-full" : "translate-y-0"
-          showedAnimation ? "-translate-y-full" : "translate-y-0"
+        {/* <div
+          className={`overlay fixed top-0 left-0 w-full h-full bg-gray-300 flex items-center transition-transform duration-1000 ${
+            // hideOverlay ? "-translate-y-full" : "translate-y-0"
+            showedAnimation ? "-translate-y-full" : "translate-y-0"
 
-        }`}
-      >
-        <div className="overlay_inner flex items-center justify-center max-w-sm mx-auto  p-20 rounded">
-          
-          <MotionImage 
-            src="/images/logo.png" 
-            width={600} 
-            height={150} 
-            alt="Logo"
-            initial={{ y: 100, opacity: 0 }} // Start position
-            animate={{ y: 0, opacity: 1 }}   // End position
-            transition={{ duration: 1 }} 
-          />
+          }`}
+        >
+          <div className="overlay_inner flex items-center justify-center max-w-sm mx-auto  p-20 rounded">
+              
+            <MotionImage 
+              src="/images/logo.png" 
+              width={600} 
+              height={150} 
+              alt="Logo"
+              initial={{ y: 100, opacity: 0 }} // Start position
+              animate={{ y: 0, opacity: 1 }}   // End position
+              transition={{ duration: 1 }} 
+            />
 
 
+          </div>
+        </div> */}
+        
+        <div className="home_content flex flex-col gap-16 items-center justify-center h-full w-full min-h-dvh">
+          <Image src="/images/logo.png" alt="Logo" width={600} height={150} />
+          <div className="info flex justify-center flex-col">
+            <h1 className='text-2xl md:text-4xl font-medium mb-4 text-center'>Website is coming soon!</h1>
+            <p className='text-xl md:text-2xl font-bold text-center' >If you have any query please contact:</p>
+            <a className='text-lg font-bold text-center' href="mailto:info@aronnokbd.com/">info@aronnokbd.com</a>
+          </div>
         </div>
       </div>
-      <div className="home_content flex flex-col gap-16 items-center justify-center h-full w-full min-h-dvh">
-        <Image src="/images/logo.png" alt="Logo" width={600} height={150} />
-        <div className="info flex justify-center flex-col">
-          <h1 className='text-2xl md:text-4xl font-medium mb-4 text-center'>Website is coming soon!</h1>
-          <p className='text-xl md:text-2xl font-bold text-center' >If you have any query please contact:</p>
-          <a className='text-lg font-bold text-center' href="mailto:info@aronnokbd.com/">info@aronnokbd.com</a>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 }

@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --color-golden: #A2875C;
+  --breakpoint-xs: 30rem;
+  
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,5 +27,30 @@
 }
 
 body {
-  background: #e8e3e3;
+  /* background: #e8e3e3; */
 }
+
+.container{
+  width:100%;
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cinzel), serif;
+}
+
+@font-face {
+  font-family: 'Avgardn';
+  src: url('/fonts/avgardeGothik.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+p{
+  font-family: 'Avgardn', sans-serif;
+  letter-spacing: 1px;
+}
+
