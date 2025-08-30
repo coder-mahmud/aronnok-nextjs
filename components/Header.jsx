@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const navLinks = [
-    { href: '/home', label: 'Home' },
+    { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
     { href: '/projects', label: 'Projects' },
     { href: '/landowners', label: 'LandOwners' },
@@ -18,10 +18,10 @@ const Header = () => {
   ]
 
   return (
-    <header className="sec_header border-b fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+    <header className="sec_header fixed top-0 left-0 w-full z-50 bg-white ">
       <div className="container mx-auto flex items-center justify-between py-4 px-4 md:px-8 relative">
         <Link href="/">
-          <Image src="/images/Logo_new.png" alt="Logo" width={218} height={52} />
+          <Image src="/images/logo-2.png" alt="Logo" width={218} height={52} />
         </Link>
 
 

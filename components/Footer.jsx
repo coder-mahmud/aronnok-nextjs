@@ -13,7 +13,7 @@ const Footer = () => {
         
         <AnimationScroll direction="up">
           <div className="footer_top flex justify-center">
-            <Image src="/images/Logo_new.png" alt="Logo" width={218} height={52} />
+            <Image src="/images/logo-2.png" alt="Logo" width={218} height={52} />
           </div>
         </AnimationScroll>
 

@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-golden: #A2875C;
+  /* --color-golden: #A2875C; */
+  --color-golden: #000;
   --breakpoint-xs: 30rem;
   
 }
@@ -32,9 +33,22 @@ body {
 
 .container{
   width:100%;
-  max-width: 1440px;
+  max-width: 1377px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+
+@media only screen and (max-width:1500px){
+  .container{
+    max-width: 1250px;
+  }
+}
+
+@media only screen and (max-width:1400px){
+  .container{
+    max-width: 1190px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,3 +68,8 @@ p{
   letter-spacing: 1px;
 }
 
+.filter_header button{cursor: pointer; text-transform: uppercase; font-weight: 500;}
+.filter_header .mixitup-control-active{color: #A2875C; text-decoration: underline;}
+
+.home_bottom_slider .swiper-pagination-bullet{background-color: white;}
+.home_bottom_slider .swiper-pagination-bullet .swiper-pagination-bullet-active{}

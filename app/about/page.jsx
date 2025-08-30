@@ -8,14 +8,14 @@ const page = () => {
   return (
     <>
       <section className='sec_hero'>
-        <div className="container  mx-auto flex justify-between">
+        <div className="container  mx-auto flex justify-between h-[350px] lg:h-[500px]">
           <div className="hero_wrap relative w-full ">
-            <Image className="w-full" src="/images/about-hero.jpg" height={737} width={1723} alt="about image" />
-            <h1 className="about_hero_text absolute bottom-14 left-14 font-medium text-5xl text-white z-20">
+            <Image className="w-full max-h-full object-cover" src="/images/about-hero.webp" height={737} width={1723} alt="about image"  />
+            <h1 className="about_hero_text absolute bottom-14 left-14 font-medium text-3xl md:text-5xl text-white z-20">
               
-            <AnimationScroll direction="up">
-              Crafting Art of Living
-            </AnimationScroll>
+              <AnimationScroll direction="up">
+                Crafting Art of Living
+              </AnimationScroll>
               
               
             </h1>
@@ -30,7 +30,7 @@ const page = () => {
           <AnimationScroll direction="up">
             <div className="section_title_wrap flex items-center gap-10 mb-14">
               <div className="line h-[1px] w-[100px] bg-[#9F4F20]"></div>
-              <h2 className="text-5xl font-medium text-golden">Who we are</h2>
+              <h2 className="text-3xl md:text-5xl font-medium text-golden">Who we are</h2>
             </div>
           </AnimationScroll>
 
@@ -58,7 +58,7 @@ const page = () => {
                   <div className="relative pr-4 pt-4">
                     <div className="top_right_horizontal_border absolute w-[100px] h-[1px] right-0 top-0 bg-golden"></div>
                     <div className="top_right_vertical_border absolute w-[1px] h-[100px] right-0 top-0 bg-golden"></div>
-                    <Image src="/images/philosophy.jpg" alt="" width={1920} height={1080} />
+                    <Image src="/images/philosophy.webp" alt="" width={1920} height={1080} />
                   </div>
                 </AnimationScroll>
               </div>
@@ -108,7 +108,7 @@ const page = () => {
                   <div className="relative pl-4 pb-4">
                     <div className="top_right_horizontal_border absolute w-[100px] h-[1px] left-0 bottom-0 bg-golden"></div>
                     <div className="top_right_vertical_border absolute w-[1px] h-[100px] left-0 bottom-0 bg-golden"></div>
-                    <Image src="/images/philosophy.jpg" alt="" width={1920} height={1080} />
+                    <Image src="/images/excellence.webp" alt="" width={1920} height={1080} />
                   </div>
                 </AnimationScroll>
               </div>

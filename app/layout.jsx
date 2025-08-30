@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         className={`antialiased`}
       > 
       <Header />
-      <main className="px-4 mt-[85px]">
+      <main className="mt-[85px]">
         {children}
       </main>
 
