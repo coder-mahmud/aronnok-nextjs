@@ -151,7 +151,19 @@ export default function VerticalSwiper() {
           
           <AnimationScroll direction="up">
             <div className="h-[300px] lg:h-[600px] w-full mx-auto relative overflow-hidden">
-              <ImageSlider images={['/images/slides/ds-1.webp','/images/slides/ds-2.webp','/images/slides/ds-3.webp','/images/slides/ds-4.webp','/images/slides/ds-5.webp','/images/slides/ds-6.webp']} />
+              {/* <ImageSlider images={['/images/slides/ds-1.webp','/images/slides/ds-2.webp','/images/slides/ds-3.webp','/images/slides/ds-4.webp','/images/slides/ds-5.webp','/images/slides/ds-6.webp']} /> */}
+              <ImageSlider images={['/images/slides/ds-1.jpg','/images/slides/ds-2.jpg','/images/slides/ds-3.jpg','/images/slides/ds-4.jpg','/images/slides/ds-5.jpg','/images/slides/ds-6.jpg']} />
+            </div>
+          </AnimationScroll>
+        </div>
+      </section>
+
+      <section className='home_bottom_slider mt-20'>
+        <div className="container mx-auto flex justify-between py-4">
+          
+          <AnimationScroll direction="up">
+            <div className='flex justify-center lg:justify-start'>
+              <Image className='' src="/images/rehab.jpg" width={300} height={250} alt="Rehab Logo" />
             </div>
           </AnimationScroll>
         </div>

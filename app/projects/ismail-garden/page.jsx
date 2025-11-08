@@ -7,10 +7,10 @@ import Link from 'next/link'
 const AhsanResidencePage = () => {
   return (
     <>
-      <section className='sec_hero'>
+      {/* <section className='sec_hero'>
         <div className="container  mx-auto flex justify-between">
           <div className="h-[350px] lg:h-[500px] hero_wrap relative w-full ">
-            <Image className="w-full h-full" src="/images/projects.webp" height={737} width={1723} alt="about image" />
+            <Image className="w-full h-full" src="/images/projects/ismail/ig.jpg" height={737} width={1723} alt="about image" />
             <h1 className="about_hero_text absolute bottom-14 left-4  lg:left-14 font-medium text-3xl lg:text-5xl text-white z-20">
               
             <AnimationScroll direction="up">
@@ -22,7 +22,7 @@ const AhsanResidencePage = () => {
             <div className="overlay absolute bg-black opacity-50 w-full h-full top-0 left-0 z-10"></div>
           </div>
         </div>
-      </section>   
+      </section>    */}
     
     
       <section className='home_bottom_slider mt-20'>

@@ -90,7 +90,7 @@ const page = () => {
                     <Image className='block mx-auto rounded w-auto max-h-[336px]' src="/images/projects/ahsan/ahsan1.webp" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
-                      <p className="title text-xl font-medium text-golden">Aronnok Ahsan Residence</p>
+                      <p className="title text-xl font-medium text-golden">Ahsan Residence</p>
                       <p className="title text-sm font-medium">6000 sft.</p>
                       <p className="title font-medium">Bashundhara R/A</p>
                     </div>
@@ -140,7 +140,7 @@ const page = () => {
                     <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/mohsin/1.jpg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
-                      <p className="title text-xl font-medium text-golden">Aronnok Mohsin Residence</p>
+                      <p className="title text-xl font-medium text-golden">Mohsin Residence</p>
                       <p className="title text-sm font-medium">4218 sft.</p>
                       <p className="title font-medium">Aftabnagar</p>
                     </div>

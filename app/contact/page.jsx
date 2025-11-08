@@ -56,8 +56,14 @@ const page = () => {
                     
                     <AnimationScroll direction="up">
 
-                      <p className="uppercase font-thin text-golden mb-6">GET IN TOUCH</p>
-                      <h2 className="text-3xl text-medium text-golden">We Would Love to Connect With You</h2>
+                      <p className="uppercase font-thin text-golden mb-6">Contact us:</p>
+                      {/* <h2 className="text-3xl text-medium text-golden">We Would Love to Connect With You</h2> */}
+                      <p className="office_name text-xl font-bold mt-6">Whatsapp:</p>
+                      <p className="text-lg font-medium"><a href="https://api.whatsapp.com/send/?phone=8801766769003&text&type=phone_number&app_absent=0" target="_blank">+8801766769003</a></p>
+
+                      <p className="office_name text-xl font-bold mt-6">Email:</p>
+                      <p className="text-lg font-medium"><a href="mailto:info@aronnokbd.com" target="_blank">info@aronnokbd.com</a></p>
+
                       <p className="office_name text-xl font-bold mt-6">Gulshan Office:</p>
                       <p className="text-lg font-medium"> House-11/B, Road-99,<br />Gulshan-2, Dhaka-1212, Bangladesh </p>
                       <p className="office_name text-xl font-bold mt-6">Aftabnagar Office:</p>

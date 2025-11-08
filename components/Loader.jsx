@@ -16,7 +16,7 @@ const Loader = () => {
       const timer = setTimeout(() => {
         // setHideOverlay(true);
         makeAnimated();
-      }, 2000); // Hide after 2s
+      }, 3000); // Hide after 2s
 
       return () => clearTimeout(timer);
     }
@@ -32,23 +32,23 @@ const Loader = () => {
 
   return (
     <div
-      className={`overlay fixed top-0 left-0 w-full h-full bg-gray-300 flex items-center transition-transform duration-1000 z-100 ${
+      className={`overlay fixed top-0 left-0 w-[100vw] h-full bg-gray-300 flex items-center transition-transform duration-1000 z-100 ${
         // hideOverlay ? "-translate-y-full" : "translate-y-0"
         showedAnimation ? "-translate-y-full" : "translate-y-0"
         // showedAnimation ? "translate-y-0" : "translate-y-0"
 
       }`}
     >
-      <div className="overlay_inner flex items-center justify-center max-w-sm mx-auto  p-20 rounded">
+      <div className="overlay_inner flex items-center justify-center max-w-xl mx-auto  p-20 rounded">
           
         <MotionImage 
           src="/images/logo.png" 
-          width={600} 
-          height={150} 
+          width={1200} 
+          height={600} 
           alt="Logo"
           initial={{ y: 100, opacity: 0 }} // Start position
           animate={{ y: 0, opacity: 1 }}   // End position
-          transition={{ duration: 1 }} 
+          transition={{ duration: 1.5 }} 
         />
 
 

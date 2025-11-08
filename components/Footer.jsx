@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import AnimationScroll from './ScrollAnimation'
-import { Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -21,19 +21,19 @@ const Footer = () => {
         <AnimationScroll direction="up">
           <div className="footer_socials flex justify-center gap-6 my-8">
             
-            <Link href="">
+            <Link href="https://www.facebook.com/aronnokdevelopments" target='_blank'>
               <div className="icon_wrap bg-white h-10 w-10 rounded-[50%] flex items-center justify-center"><Facebook size='24' /></div>
             </Link>
 
-            <Link href="">
+            <Link href="https://www.instagram.com/aronnokdevelopments/" target='_blank'>
               <div className="icon_wrap bg-white h-10 w-10 rounded-[50%] flex items-center justify-center"><Instagram size='24' /></div>
             </Link>
 
-            <Link href="">
-              <div className="icon_wrap bg-white h-10 w-10 rounded-[50%] flex items-center justify-center"><Twitter size='24' /></div>
+            <Link href="https://www.youtube.com/@AronnokDevelopments" target='_blank'>
+              <div className="icon_wrap bg-white h-10 w-10 rounded-[50%] flex items-center justify-center"><Youtube size='24' /></div>
             </Link>
                     
-            <Link href="">
+            <Link href="https://www.linkedin.com/company/aronnokdevelopments/" target='_blank'>
               <div className="icon_wrap bg-white h-10 w-10 rounded-[50%] flex items-center justify-center"><Linkedin size='24' /></div>
             </Link>
 

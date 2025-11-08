@@ -50,16 +50,22 @@ const page = () => {
                 <div className="flex gap-4 xl:gap-6">
                   
                   <div className="hidden xl:block">
-                    <div className="min-w-[50px] 2xl:min-w-[100px] w-full h-[1px] right-0 top-0 bg-golden mt-2"></div>
+                    <div className="min-w-[50px] 2xl:min-w-[100px] w-full h-[1px] right-0 top-0 bg-golden mt-4"></div>
                   </div>
 
                   <div>
                     <AnimationScroll direction="up">
-                      <h2 className="text-lg uppercase text-golden">CONNECT WITH OUR PROFESSIONALS TO ENTER A PROPOSITION</h2>
+                      <h2 className="text-2xl uppercase text-golden ">MEET THE PROFSSIONALS</h2>
                     </AnimationScroll>
                   </div>
 
                 </div>
+
+                <AnimationScroll direction="up">
+                  <p className="text-lg mt-4">Aronnok Developments Ltd. is where modern design meets timeless value. We craft spaces that inspire, endure, and appreciate over time. A mutually beneficial venture that lets you get the most out of your property.</p>
+                </AnimationScroll>
+
+                
 
 
               </div>
