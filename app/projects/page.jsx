@@ -137,7 +137,7 @@ const page = () => {
                 <Link href="/projects/mohsin-residence">
 
                   <div className="border rounded p-8">
-                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/mohsin/1.jpg" alt="Project Image" width={350} height={350} />
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/mohsin/3.jpg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
                       <p className="title text-xl font-medium text-golden">Mohsin Residence</p>
@@ -147,6 +147,57 @@ const page = () => {
                   </div>
                 </Link>               
               </div>
+
+
+              <div className="mix upcoming">
+                  <div className="border rounded p-8">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/jolshiri/jolshiri.jpg" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Residential</p>
+                      <p className="title text-xl font-medium text-golden">Jolshiri</p>
+                      <p className="title text-sm font-medium">4218 sft.</p>
+                      <p className="title font-medium">Aftabnagar</p>
+                    </div>
+                  </div>              
+              </div>
+
+              <div className="mix upcoming">
+                  <div className="border rounded p-8">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/anchor/anchor.jpg" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Residential</p>
+                      <p className="title text-xl font-medium text-golden">Aronnok Anchor</p>
+                      <p className="title text-sm font-medium">1850 sft.</p>
+                      <p className="title font-medium">Bashundhara R/A</p>
+                    </div>
+                  </div>              
+              </div>
+
+              <div className="mix upcoming">
+                  <div className="border rounded p-8">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/breeze/breeze.jpeg" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Residential</p>
+                      <p className="title text-xl font-medium text-golden">Aronnok Breeze</p>
+                      <p className="title text-sm font-medium">1850 sft.</p>
+                      <p className="title font-medium">Savar DOHS</p>
+                    </div>
+                  </div>              
+              </div>
+
+              <div className="mix upcoming">
+                  <div className="border rounded p-8">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/nawaz/nawaz.jpeg" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Residential</p>
+                      <p className="title text-xl font-medium text-golden">Aronnok Nawaz Garden</p>
+                      <p className="title text-sm font-medium">1550 sft.</p>
+                      <p className="title font-medium">Bashundhara R/A</p>
+                    </div>
+                  </div>              
+              </div>
+
+
 
 
 

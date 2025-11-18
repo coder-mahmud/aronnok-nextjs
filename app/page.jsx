@@ -158,7 +158,7 @@ export default function VerticalSwiper() {
         </div>
       </section>
 
-      <section className='home_bottom_slider mt-20'>
+      {/* <section className='home_bottom_slider mt-20'>
         <div className="container mx-auto flex justify-between py-4">
           
           <AnimationScroll direction="up">
@@ -167,7 +167,7 @@ export default function VerticalSwiper() {
             </div>
           </AnimationScroll>
         </div>
-      </section>
+      </section> */}
 
 
     </>
