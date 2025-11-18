@@ -49,11 +49,11 @@ const Footer = () => {
         <AnimationScroll direction="up">
           <div className="relative flex flex-col gap-10">
             <ul className="footer_nav flex gap-4 mt-10 justify-center uppercase flex-col xs:flex-row text-md">
-              <li><Link href="">Home</Link></li>
-              <li><Link href="">About</Link></li>
-              <li><Link href="">Projects</Link></li>
-              <li><Link href="">Land Owners</Link></li>
-              <li><Link href="">Contact</Link></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/about">About</Link></li>
+              <li><Link href="/projects">Projects</Link></li>
+              <li><Link href="/landowners">Land Owners</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
             </ul>
             {/* <Image className='block mx-auto' src="/images/rehab.jpg" width={300} height={250} alt="Rehab Logo" /> */}
           </div>
