@@ -28,7 +28,7 @@ const AhsanResidencePage = () => {
           
           <AnimationScroll direction="up">
             <div className="h-[300px] lg:h-[450px] w-full mx-auto relative overflow-hidden">
-              <ImageSlider images={['/images/projects/mohsin/1.jpg','/images/projects/mohsin/2.jpg','/images/projects/mohsin/3.jpg','/images/projects/mohsin/4.jpg']} />
+              <ImageSlider images={['/images/projects/mohsin/4.jpg','/images/projects/mohsin/2.jpg','/images/projects/mohsin/3.jpg','/images/projects/mohsin/1.jpg']} />
             </div>
           </AnimationScroll>
         </div>

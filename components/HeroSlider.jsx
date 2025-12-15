@@ -82,12 +82,20 @@ const HeroSlider = () => {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <div className="absolute inset-0 z-0 bg-green-300">
-            <Image 
-              src="/images/slides/ts-4.webp" 
+            {/* <Image 
+              src="/images/slides/home-slide-4-new.webp" 
               fill
               alt="Slide 1"
               className="object-cover"
-            />
+            /> */}
+           
+              <Image
+                src="/images/slides/home-slide-4-new.webp"
+                fill
+                alt="Slide 1"
+                className="object-fill object-center"
+                priority
+              />
           </div>
         </div>
       </SwiperSlide>

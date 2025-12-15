@@ -137,12 +137,12 @@ const page = () => {
                 <Link href="/projects/mohsin-residence">
 
                   <div className="border rounded p-8">
-                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/mohsin/3.jpg" alt="Project Image" width={350} height={350} />
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/mohsin/4.jpg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
                       <p className="title text-xl font-medium text-golden">Mohsin Residence</p>
                       <p className="title text-sm font-medium">4218 sft.</p>
-                      <p className="title font-medium">Aftabnagar</p>
+                      <p className="title font-medium">United City</p>
                     </div>
                   </div>
                 </Link>               
@@ -195,6 +195,19 @@ const page = () => {
                       <p className="title text-xl font-medium text-golden">Aronnok Anchor</p>
                       <p className="title text-sm font-medium">1850 sft.</p>
                       <p className="title font-medium">Bashundhara R/A</p>
+                    </div>
+                  </div>              
+              </div>
+
+
+              <div className="mix completed">
+                  <div className="border rounded p-8">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/slides/home-slide-4-new.webp" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Commercial</p>
+                      <p className="title text-xl font-medium text-golden">NHQ Cafeteria</p>
+                      <p className="title text-sm font-medium">3500 sft.</p>
+                      <p className="title font-medium">Banani Dhaka</p>
                     </div>
                   </div>              
               </div>
