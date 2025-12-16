@@ -212,6 +212,18 @@ const page = () => {
                   </div>              
               </div>
 
+              <div className="mix completed">
+                  <div className="border rounded p-8">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/h37/house-37.jpg" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Residential</p>
+                      <p className="title text-xl font-medium text-golden">House 37</p>
+                      <p className="title text-sm font-medium">1500 sft.</p>
+                      <p className="title font-medium">Uttara</p>
+                    </div>
+                  </div>              
+              </div>
+
 
 
             </div>
