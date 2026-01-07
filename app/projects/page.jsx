@@ -84,9 +84,9 @@ const page = () => {
 
             <div ref={containerRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
               
-              <div className="mix completed ">
-                <Link href="/projects/ahsan-residence">
-                  <div className="border rounded p-8">
+              <div className="mix completed  h-full">
+                <Link href="/projects/ahsan-residence" className=''>
+                  <div className="border rounded p-8 h-full">
                     <Image className='block mx-auto rounded w-auto max-h-[336px]' src="/images/projects/ahsan/ahsan1.webp" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
@@ -100,10 +100,10 @@ const page = () => {
               </div>
 
 
-              <div className="mix ongoing">
+              <div className="mix ongoing block h-full">
                 <Link href="/projects/ismail-garden">
               
-                  <div className="border rounded p-8">
+                  <div className="border rounded p-8 block h-full">
                     <Image className='block mx-auto rounded w-auto h-[336px]' src="/images/projects/ismail/ismail-thumb.png" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
@@ -117,10 +117,10 @@ const page = () => {
               </div>
 
               
-              <div className="mix ongoing">
+              <div className="mix ongoing block h-full">
                 <Link href="/projects/kumkum-heights">
 
-                  <div className="border rounded p-8">
+                  <div className="border rounded p-8 block h-full">
                     <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/kumkum/thumb.jpg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
@@ -133,10 +133,10 @@ const page = () => {
               </div>
 
 
-              <div className="mix ongoing">
+              <div className="mix ongoing block h-full">
                 <Link href="/projects/mohsin-residence">
 
-                  <div className="border rounded p-8">
+                  <div className="border rounded p-8 block h-full">
                     <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/mohsin/4.jpg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
@@ -151,8 +151,8 @@ const page = () => {
 
 
 
-              <div className="mix upcoming">
-                  <div className="border rounded p-8">
+              <div className="mix upcoming h-full">
+                  <div className="border rounded p-8 h-full">
                     <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/breeze/breeze.jpeg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
@@ -163,8 +163,8 @@ const page = () => {
                   </div>              
               </div>
 
-              <div className="mix upcoming">
-                  <div className="border rounded p-8">
+              <div className="mix upcoming h-full">
+                  <div className="border rounded p-8 h-full">
                     <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/nawaz/nawaz.jpeg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
@@ -175,20 +175,50 @@ const page = () => {
                   </div>              
               </div>
 
-              <div className="mix upcoming">
-                  <div className="border rounded p-8">
+
+
+
+              <div className="mix completed h-full">
+                <Link href="/projects/nhq-cafeteria">
+                  <div className="border rounded p-8 h-full">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/slides/home-slide-4-new.webp" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Commercial</p>
+                      <p className="title text-xl font-medium text-golden">NHQ Cafeteria</p>
+                      <p className="title text-sm font-medium">3500 sft.</p>
+                      <p className="title font-medium text-center">Bangladesh Navy Headquarter, Banani, Dhaka</p>
+                    </div>
+                  </div>
+                </Link>            
+              </div>
+
+              <div className="mix completed h-full">
+                  <div className="border rounded p-8 h-full">
+                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/h37/house-37.jpg" alt="Project Image" width={350} height={350} />
+                    <div className="project_info flex flex-col justify-center items-center mt-4">
+                      <p className="font-light uppercase ">Residential</p>
+                      <p className="title text-xl font-medium text-golden">House 37</p>
+                      <p className="title text-sm font-medium">1500 sft.</p>
+                      <p className="title font-medium">Uttara</p>
+                    </div>
+                  </div>              
+              </div>
+
+
+              <div className="mix upcoming h-full">
+                  <div className="border rounded p-8 h-full">
                     <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/jolshiri/Jolshiri.jpg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
-                      <p className="title text-xl font-medium text-golden">Aronnok</p>
+                      <p className="title text-xl font-medium text-golden">Aronnok Barakah</p>
                       <p className="title text-sm font-medium">2850 sft.</p>
                       <p className="title font-medium">Jolshiri Abashon</p>
                     </div>
                   </div>              
               </div>
 
-              <div className="mix upcoming">
-                  <div className="border rounded p-8">
+              <div className="mix upcoming h-full">
+                  <div className="border rounded p-8 h-full">
                     <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/anchor/anchor.jpg" alt="Project Image" width={350} height={350} />
                     <div className="project_info flex flex-col justify-center items-center mt-4">
                       <p className="font-light uppercase ">Residential</p>
@@ -200,29 +230,6 @@ const page = () => {
               </div>
 
 
-              <div className="mix completed">
-                  <div className="border rounded p-8">
-                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/slides/home-slide-4-new.webp" alt="Project Image" width={350} height={350} />
-                    <div className="project_info flex flex-col justify-center items-center mt-4">
-                      <p className="font-light uppercase ">Commercial</p>
-                      <p className="title text-xl font-medium text-golden">NHQ Cafeteria</p>
-                      <p className="title text-sm font-medium">3500 sft.</p>
-                      <p className="title font-medium">Banani Dhaka</p>
-                    </div>
-                  </div>              
-              </div>
-
-              <div className="mix completed">
-                  <div className="border rounded p-8">
-                    <Image className='block mx-auto rounded  w-auto h-[336px]' src="/images/projects/h37/house-37.jpg" alt="Project Image" width={350} height={350} />
-                    <div className="project_info flex flex-col justify-center items-center mt-4">
-                      <p className="font-light uppercase ">Residential</p>
-                      <p className="title text-xl font-medium text-golden">House 37</p>
-                      <p className="title text-sm font-medium">1500 sft.</p>
-                      <p className="title font-medium">Uttara</p>
-                    </div>
-                  </div>              
-              </div>
 
 
 
