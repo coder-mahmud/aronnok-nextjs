@@ -5,10 +5,6 @@ import { useState } from "react";
 
 
 
-
-
-
-
 const page = () => {
 
   const [showForm, setShowForm] = useState(false);
@@ -64,10 +60,10 @@ const page = () => {
                       <p className="office_name text-xl font-bold mt-6">Email:</p>
                       <p className="text-lg font-medium"><a href="mailto:info@aronnokbd.com" target="_blank">info@aronnokbd.com</a></p>
 
-                      <p className="office_name text-xl font-bold mt-6">Gulshan Office:</p>
-                      <p className="text-lg font-medium"> House-11/B, Road-99,<br />Gulshan-2, Dhaka-1212, Bangladesh </p>
-                      <p className="office_name text-xl font-bold mt-6">Aftabnagar Office:</p>
-                      <p className="text-lg font-medium"> House-48, Road-2. Block-C, <br />Aftabnagar, Eastern Housing Limited, <br />Dhaka-1219, Bangladesh.</p>
+                      <p className="office_name text-xl font-bold mt-6">Office:</p>
+                      <p className="text-lg font-medium">Rabbee House, Plot: CEN(B)-11, Road 99, Gulshan 02, Dhaka - 1212, Bangladesh</p>
+                      {/* <p className="office_name text-xl font-bold mt-6">Aftabnagar Office:</p>
+                      <p className="text-lg font-medium"> House-48, Road-2. Block-C, <br />Aftabnagar, Eastern Housing Limited, <br />Dhaka-1219, Bangladesh.</p> */}
 
                         <div className="flex gap-4 mt-6">
                           <button onClick={() => setShowForm(true)} className=" uppercase bg-golden px-6 py-3 rounded text-white cursor-pointer min-w-[130px]">Have a Query?</button>
